@@ -7,46 +7,52 @@
     <link rel="stylesheet" href="cipher.css">
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="form-container">
-        <form class="cyber-form">
-            <h2>ENCRYPTION AND DECRYPTION</h2>
-            <label for="text">Text:</label>
-            <textarea id="inputted" class="text-area"></textarea>
-
-            <div class="shift-container">
-                <label for="shift-count" id="shift-label">Switch Count:</label>
-                <select name="shift-count" id="shift">
-                    <option value="none" selected>-- Select --</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                </select>
-            </div>
-
-            <label for="password">Result:</label>
-            <p id="result" class="text-area" ></p>
-
-            <button type="button" id="rn-encode">Encode</button>
-            <button type="button" id="rn-decode">Decode</button>
-        </form>
-    </div>
+    <!-- <div id="element-container"> -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="cipher.html">Cipher</a></li>
+                <li><a href="tutorials.html">Tutorial Videos</a></li>
+                <li><a href="discussion.html">Discussion Board</a></li>
+            </ul>
+        </nav>
+    
+        <div class="form-container">
+            <form class="cyber-form">
+                <h2>ENCRYPTION AND DECRYPTION</h2>
+                <label for="text">Text:</label>
+                <textarea id="inputted" class="text-area"></textarea>
+    
+                <div class="shift-container">
+                    <label for="shift-count" id="shift-label">Switch Count:</label>
+                    <select name="shift-count" id="shift">
+                        <option value="none" selected>-- Select --</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+    
+                <label for="password">Result:</label>
+                <p id="result" class="text-area" ></p>
+    
+                <button type="button" id="rn-encode">Encode</button>
+                <button type="button" id="rn-decode">Decode</button>
+            </form>
+        </div>
+    
+    <footer>
+        <p><strong>ALCANTARA, CLEMENT F.</strong><br>BSIT 3B - JAVA</p>
+        <p>&copy; 2025 Social and Professional Issues</p>
+    </footer>
+        
 
     <script src="jquery.js"></script>
     <script src="cipher.js"></script>
